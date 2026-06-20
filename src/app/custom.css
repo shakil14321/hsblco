@@ -1,0 +1,44 @@
+.gallery-marquee .rfm-initial-child-container{
+    align-items: end;
+}
+
+.footer-social {
+  position: relative;
+  --shape-color: #ffffff;
+}
+
+.footer-social::before,
+.footer-social::after {
+  content: "";
+  position: absolute;
+  width: 24px;
+  height: 100%;
+  box-shadow: 0 24px 0 0 var(--shape-color);
+}
+
+.footer-social::before {
+  left: -24px;
+  bottom: 4px;
+  border-bottom-right-radius: 24px;
+}
+
+.footer-social::after {
+  right: 0;
+  bottom: 100%;
+  border-bottom-right-radius: 24px;
+}
+
+section{
+  background: #fff;
+  overflow: hidden;
+}
+
+.section-inner{
+  position: relative;
+}
+
+
+div#identifier {
+    width: 591px;
+}
+

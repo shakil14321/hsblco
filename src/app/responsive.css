@@ -1,0 +1,8 @@
+
+@media screen and (max-width:767px) {
+  .footer-social::after {
+  right: 0;
+  /* bottom: 120%; */
+  border-bottom-right-radius: 24px;
+  } 
+}
